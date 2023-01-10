@@ -1,5 +1,5 @@
 {
-  "index_name": "chongyandocs",
+  "index_name": "test",
   "start_urls": ["https://chongyan.xyz"],
   "rateLimit": 8,
   "maxDepth": 10,
