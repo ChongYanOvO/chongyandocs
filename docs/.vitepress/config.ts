@@ -2,7 +2,6 @@ import {generateSitemap as sitemap} from 'sitemap-ts'
 import sidebar from "./sidebar";
 import socialLinks from "./link";
 import algolia from "./algolia";
-import type {SiteConfig} from "vitepress";
 
 
 export default {
@@ -35,7 +34,7 @@ export default {
         sidebar,
         socialLinks,
     },
-    async buildEnd(siteConfig: SiteConfig) {
+    async buildEnd() {
         await sitemap({hostname: 'https://www.chongyan.xyz/'});
     }
 }
