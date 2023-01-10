@@ -29,13 +29,13 @@ export default {
       { text: "日常", link: "/daily/" },
     ],
     editLink: {
-      pattern: "https://github.com/ChongyanOvO/chongyandocs/edit/main/docs/:path",
+      pattern: "https://github.com/ChongyanOvO/chongyandocs/edit/master/docs/:path",
     },
     algolia,
     sidebar,
     socialLinks,
   },
   async buildEnd() {
-    await sitemap({ hostname: 'http://chongyan.xyz/' });
+    await sitemap({ hostname: 'https://chongyan.xyz' });
   }
 }
