@@ -6,6 +6,9 @@ import algolia from "./algolia";
 
 export default {
     outDir: '../dist',
+    head:[
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     title: "ChongyanDocs",
     description: "BigData learning document collection",
     lastUpdated: true,
