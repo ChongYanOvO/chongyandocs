@@ -1,6 +1,6 @@
 {
   "index_name": "chongyandocs",
-  "start_urls": ["http://chongyan.xyz/"],
+  "start_urls": ["http://chongyan.xyz"],
   "rateLimit": 8,
   "maxDepth": 10,
   "selectors": {
