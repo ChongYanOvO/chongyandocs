@@ -3,6 +3,7 @@ node_modules
 .cache
 dist
 .vscode
+cache
 
 # local env files
 .env.local
