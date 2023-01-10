@@ -15,7 +15,7 @@ hero:
       text: 日常 🎒
       link: /daily/
     - theme: alt
-      text: 关于我
+      text: 关于小韩
       link: https://github.com/ChongyanOvO
 features:
   - icon:
