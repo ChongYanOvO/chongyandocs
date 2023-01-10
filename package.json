@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "分享 Chongyan 的数据开发成长记录、知识体系。",
   "private": true,
-  "author": "Chongyan<https://github.com/ChongYanOvO>",
+  "author": "Chongyan<https://github.com/ChongYanOvO/chongyandocs>",
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs",

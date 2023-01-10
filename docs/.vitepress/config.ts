@@ -5,7 +5,7 @@ import algolia from "./algolia";
 
 
 export default {
-  outDir: '../dist',
+  outDir: 'docs/.vitepress/dist',
   title: "ChongyanDocs",
   description: "BigData learning document collection",
   lastUpdated: true,
