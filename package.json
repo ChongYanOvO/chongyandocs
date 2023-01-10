@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs",
-    "preview": "vitepress preview docs"
+    "serve": "vitepress serve docs"
   },
   "repository": {
     "type": "git",
