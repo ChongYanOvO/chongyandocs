@@ -16,10 +16,10 @@ hero:
       link: /daily/
     - theme: alt
       text: 关于小韩
-      link: https://github.com/ChongyanOvO
+      link: /about/
 features:
   - icon:
-      src: /svg/leetcode.svg
+      src: /svg/algorithm.svg
     title: 算法
     details: LeetCode 中 Java 算法题目
     link: /algorithm/
