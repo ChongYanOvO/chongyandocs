@@ -7,7 +7,7 @@ import algolia from "./algolia";
 export default {
     outDir: '../dist',
     head:[
-        ['link', { rel: 'icon', href: '/svg/favicon.ico' }],
+        ['link', { rel: 'icon', href: '/favicon/favicon.svg' }],
     ],
     title: "ChongyanDocs",
     description: "BigData learning document collection",
