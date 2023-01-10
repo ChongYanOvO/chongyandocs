@@ -125,11 +125,6 @@
     "@algolia/logger-common" "4.14.3"
     "@algolia/requester-common" "4.14.3"
 
-"@antfu/utils@0.7.2":
-  version "0.7.2"
-  resolved "https://registry.npmmirror.com/@antfu/utils/-/utils-0.7.2.tgz#3bb6f37a6b188056fe9e2f363b6aa735ed65d7ca"
-  integrity sha512-vy9fM3pIxZmX07dL+VX1aZe7ynZ+YyB0jY+jE6r3hOK6GNY2t6W8rzpFC4tgpbXUYABkFQwgJq2XYXlxbXAI0g==
-
 "@babel/parser@^7.16.4":
   version "7.20.7"
   resolved "https://registry.npmmirror.com/@babel/parser/-/parser-7.20.7.tgz#66fe23b3c8569220817d5feb8b9dcdc95bb4f71b"
@@ -687,15 +682,14 @@ shiki@^0.12.1:
     vscode-oniguruma "^1.7.0"
     vscode-textmate "^8.0.0"
 
-sitemap-ts@^1.1.0:
-  version "1.2.2"
-  resolved "https://registry.npmmirror.com/sitemap-ts/-/sitemap-ts-1.2.2.tgz#b162288230dd2f5daa9d8cc6667fd1f2a9d04960"
-  integrity sha512-1ITMV/Ck3oinMb8eeGZh6ff/b4foDsTlMx9bnOBs5ZME1F0MqcRqMj4rRFmIdnZYeJtptJimNcAN1XTEKdHGrw==
+sitemap-ts@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/sitemap-ts/-/sitemap-ts-1.1.0.tgz#9d23e1ce619d7b6ba5d40d9446ec8f764aa733e3"
+  integrity sha512-bGuCFwaH7szV2sRLKYyMG6hfEO4oEpD4BRyTgQm+HdahAnj/SBbd2nDHjpbkB/Qor73PtG3KI8S2dtVLqBu3og==
   dependencies:
-    "@antfu/utils" "0.7.2"
     fast-glob "3.2.12"
     sitemap "7.1.1"
-    xml-formatter "3.2.0"
+    xml-formatter "2.6.1"
 
 sitemap@7.1.1:
   version "7.1.1"
@@ -787,14 +781,14 @@ vue@^3.2.45:
     "@vue/server-renderer" "3.2.45"
     "@vue/shared" "3.2.45"
 
-xml-formatter@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmmirror.com/xml-formatter/-/xml-formatter-3.2.0.tgz#e07e923414e32476f52f1eef9efb48fa1431d483"
-  integrity sha512-PYROODIUDHz1SDFePg2VThajPOuSmvo/PrYRKARcSc9xxKKs62EN9uar60IIxxknzmOSNDAxlylpw34bQp0g/Q==
+xml-formatter@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.npmmirror.com/xml-formatter/-/xml-formatter-2.6.1.tgz#066ef3a100bd58ee3b943f0c503be63176d3d497"
+  integrity sha512-dOiGwoqm8y22QdTNI7A+N03tyVfBlQ0/oehAzxIZtwnFAHGeSlrfjF73YQvzSsa/Kt6+YZasKsrdu6OIpuBggw==
   dependencies:
-    xml-parser-xo "^4.0.1"
+    xml-parser-xo "^3.2.0"
 
-xml-parser-xo@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npmmirror.com/xml-parser-xo/-/xml-parser-xo-4.0.1.tgz#d89d09d0a0e7524f35f654c71274e1b4d0f2f43a"
-  integrity sha512-wJmRjzVZr7D+kYSajd3zqT7tt+y9L2vVWp+s7ARxzPMtk/gZcTY0KB14B801QX2D2wqIQ1d3bV/LgcnwlpKyyg==
+xml-parser-xo@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmmirror.com/xml-parser-xo/-/xml-parser-xo-3.2.0.tgz#c633ab55cf1976d6b03ab4a6a85045093ac32b73"
+  integrity sha512-8LRU6cq+d7mVsoDaMhnkkt3CTtAs4153p49fRo+HIB3I1FD1o5CeXRjRH29sQevIfVJIcPjKSsPU/+Ujhq09Rg==

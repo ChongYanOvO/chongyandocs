@@ -28,7 +28,7 @@
     "url": "https://github.com/ChongyanOvO/chodocs/issues"
   },
   "devDependencies": {
-    "sitemap-ts": "^1.1.0",
+    "sitemap-ts": "1.1.0",
     "vitepress": "1.0.0-alpha.35",
     "vue": "^3.2.45"
   }
