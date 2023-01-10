@@ -1,0 +1,36 @@
+{
+  "name": "ChongyanDocs",
+  "version": "1.0.0",
+  "description": "分享 Chongyan 的数据开发成长记录、知识体系。",
+  "private": true,
+  "author": "Chongyan<https://github.com/ChongYanOvO>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChongYanOvO/ChongYanOvO.github.io"
+  },
+  "keywords": [
+    "BigData",
+    "Hadoop",
+    "Spark",
+    "Hive",
+    "Flink",
+    "ClickHouse",
+    "Drios",
+    "Chongyan"
+  ],
+  "bugs": {
+    "url": "https://github.com/ChongyanOvO/chodocs/issues"
+  },
+  "devDependencies": {
+    "sitemap-ts": "^1.1.0",
+    "vitepress": "1.0.0-alpha.35",
+    "vue": "^3.2.45"
+  }
+}
