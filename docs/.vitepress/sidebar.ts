@@ -95,6 +95,7 @@ export default {
             items: [
                 {text: "导读", link: "/scala/"},
                 {text: "Scala泛型", link: "/scala/generic"},
+                {text: "Scala高阶函数及函数柯里化", link: "/scala/highfunction"},
             ],
         },
     ],
