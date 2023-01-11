@@ -33,6 +33,7 @@ export default {
             collapsed: false,
             items: [
                 {text: "简介", link: "/code/"},
+                {text: "Scala", link: "/scala/"},
             ],
         },
     ],
@@ -83,6 +84,17 @@ export default {
             collapsed: false,
             items: [
                 {text: "关于小韩", link: "/about/"},
+            ],
+        },
+    ],
+    '/scala/': [
+        {
+            text: "Scala学习",
+            collapsible: true,
+            collapsed: false,
+            items: [
+                {text: "导读", link: "/scala/"},
+                {text: "Scala泛型", link: "/scala/generic"},
             ],
         },
     ],
