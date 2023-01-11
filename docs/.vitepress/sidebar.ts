@@ -36,6 +36,20 @@ export default {
                 {text: "Scala", link: "/scala/"},
             ],
         },
+        {
+            text: "Scala学习",
+            collapsible: true,
+            collapsed: false,
+            items: [
+                {text: "导读", link: "/scala/"},
+                {text: "Scala 泛型", link: "/scala/generic"},
+                {text: "Scala Actor 并发编程模型及框架", link: "/scala/concurrencymodel"},
+                {text: "Scala 高阶函数及函数柯里化", link: "/scala/highfunction"},
+                {text: "Scala 偏函数", link: "/scala/partialfunction"},
+                {text: "Scala 模式匹配", link: "/scala/patternmatch"},
+                {text: "通过 Akka 构建简单的 Spark 通信框架", link: "/scala/akkaspark"},
+            ],
+        },
     ],
     '/web/': [
         {
@@ -84,22 +98,6 @@ export default {
             collapsed: false,
             items: [
                 {text: "关于小韩", link: "/about/"},
-            ],
-        },
-    ],
-    '/scala/': [
-        {
-            text: "Scala学习",
-            collapsible: true,
-            collapsed: false,
-            items: [
-                {text: "导读", link: "/scala/"},
-                {text: "Scala 泛型", link: "/scala/generic"},
-                {text: "Scala Actor 并发编程模型及框架", link: "/scala/concurrencymodel"},
-                {text: "Scala 高阶函数及函数柯里化", link: "/scala/highfunction"},
-                {text: "Scala 偏函数", link: "/scala/partialfunction"},
-                {text: "Scala 模式匹配", link: "/scala/patternmatch"},
-                {text: "通过 Akka 构建简单的 Spark 通信框架", link: "/scala/akkaspark"},
             ],
         },
     ],
