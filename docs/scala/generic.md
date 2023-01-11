@@ -62,7 +62,7 @@ class Pair[+T]{}
 
 - 逆变：类 A 和 类 B 之间是父子类关系，但 Pair[A] 和 Pari[B] 之间是子父关系。
 
-```sca
+```scala
 class Pair[-T]{}
 ```
 
