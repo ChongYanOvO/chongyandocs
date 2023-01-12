@@ -4,5 +4,6 @@ export default {
     collapsed: false,
     items: [
         {text: "简介", link: "/guide"},
+        {text: "特别感谢", link: "/thanks"},
     ],
 };
