@@ -8,16 +8,17 @@ image:
 src: /svg/it.svg
 alt: ChoDocs
 actions:
+
 - theme: brand
-text: 开始阅读
-link: /guide/
+  text: 开始阅读
+  link: /guide/
 - theme: alt
-text: 日常 🎒
-link: /daily/
+  text: 日常 🎒
+  link: /daily/
 - theme: alt
-text: 关于小韩
-link: /about/
-features:
+  text: 关于小韩
+  link: /about/
+  features:
 
 - icon:
   src: /svg/algorithm.svg
@@ -49,4 +50,5 @@ features:
   title: 小韩的日常
   details: 小韩的日常快乐生活
   link: /daily/
+
 ---
