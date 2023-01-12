@@ -1,5 +1,4 @@
-### 特别感谢 [Chocolate](https://github.com/Chocolate1999) 开源的[chodocs](https://github.com/Chocolate1999/chodocs)
-### 各位如果也喜欢这个博客文档的的话,欢迎去给 Chocolate 点点 start
+> 嘿嘿🤤,感谢`Chocolate`的开源 `ChoDocs` 构建方案,在此基础上我又做了点魔改
 
 <script setup>
 import {
@@ -35,3 +34,4 @@ const members = [
     :members="members"
   />
 </VPTeamPage>
+
