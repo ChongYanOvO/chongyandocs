@@ -4,6 +4,6 @@ export default {
     collapsed: false,
     items: [
         // {text: "关于小韩", link: "/about/"},
-        {text: "关于小韩", link: "/https://github.com/ChongYanOvO/"},
+        {text: "关于小韩", link: "https://github.com/ChongYanOvO/"},
     ],
 };
