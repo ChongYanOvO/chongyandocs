@@ -6,7 +6,6 @@
 - <a href="https://www.nuist.edu.cn/"><code><img height="30" src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/NUIST.ico" alt="NUIST"/></code></a>南京信息工程大学计算机科学与技术专业大三在读
 - 目前的方向是<code><img height="30" src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/flink.jpg" alt="flink" /></code>Flink流处理以及流批一体数据湖
 - 喜欢鼓捣一些新技术,写过前端,写过后端,研究过云原生以及知识图谱
-- [ChongyanDocs](www.chongyan.xyz)
 
 <a href="https://github.com/ChongYanOvO">
   <img src="https://chongyan-github-readme-stats-5tsvxypir-chongyanovo.vercel.app/api?username=ChongYanOvO&show_icons=true&theme=transparent" alt="ChongYanOvO"/>
