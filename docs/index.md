@@ -16,7 +16,7 @@ hero:
       link: /daily/
     - theme: alt
       text: 关于小韩
-      link: /about/
+      link: https://github.com/ChongYanOvO/
 
 features:
   - icon:
