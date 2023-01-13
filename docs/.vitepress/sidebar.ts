@@ -12,7 +12,6 @@ import scalaConfig from "./indexConfig/scalaConfig";
 export default {
     "/": [
         rootConfig,
-        aboutConfig,
         algorithmConfig,
         codeConfig,
         scalaConfig,
