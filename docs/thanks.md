@@ -30,8 +30,6 @@ const members = [
       感谢以下所有人的贡献与参与
     </template>
   </VPTeamPageTitle>
-  <VPTeamMembers
-    :members="members"
-  />
+  <VPTeamMembers :members="members"></VPTeamMembers>
 </VPTeamPage>
 

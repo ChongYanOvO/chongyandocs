@@ -49,5 +49,4 @@ features:
     title: 小韩的日常
     details: 小韩的日常快乐生活
     link: /daily/
-
 ---

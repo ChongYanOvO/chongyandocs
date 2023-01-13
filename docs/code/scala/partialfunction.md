@@ -1,10 +1,3 @@
----
-title: Scala 偏函数
-swiper_index: 1
-tags: Scala
-categories: 数据开发
----
-
 ## 偏函数(partial function)
 
 **这里通过一个例子来了解一下什么是偏函数**

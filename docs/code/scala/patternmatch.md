@@ -1,8 +1,3 @@
-title: Scala 模式匹配
-swiper_index: 1
-tags: Scala
-categories: 数据开发
-
 ## Scala 模式匹配
 
 ### 模式匹配简单示例

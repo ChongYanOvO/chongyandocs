@@ -2,8 +2,6 @@
 
 ​	`Actor`并发编程模型，是 Scala 提供的一直与 Java 完全不一样的并发编程模型，是一直基于事件模型的并发机制。`Actor`并发编程模型是一种不共享数据，依赖消息传递的并发编程模型，有效避免了资源争夺、死锁等现象。
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220722002202875.png" alt="image-20220722002202875" style="zoom:50%;" />
-
 `Actor`是一种基于事件(消息)的并发编程模型，不共享数据，有效避免了共享数据加锁问题。
 
 ### Java并发编程对比 Actor 并发编程模型
