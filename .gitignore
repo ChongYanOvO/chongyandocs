@@ -8,6 +8,7 @@ cache
 # files
 deploy.sh
 .DS_Store
+yarn.lock
 
 # local env files
 .env.local
