@@ -4,5 +4,6 @@ export default {
     collapsed: false,
     items: [
         {text: "简介", link: "/research/"},
+        {text: "知识图谱基础调研", link: "/research/knowledgegraph/basicresearch"},
     ],
 };
