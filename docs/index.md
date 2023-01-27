@@ -42,7 +42,7 @@ features:
   - icon:
       src: /svg/gpu.svg
     title: 不务正业的研究
-    details: 一些感到好玩的小东西
+    details: 一些好玩的小东西
     link: /research/
   - icon:
       src: /svg/game.svg
