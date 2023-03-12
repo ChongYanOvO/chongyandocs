@@ -4,5 +4,6 @@ export default {
     collapsed: false,
     items: [
     {text: "简介", link: "/knowledge/"},
+    {text: "Hadoop伪分布式安装[Ubuntu]", link: "/HadoopPseudoDistributedInstallation[Ubuntu]/"},
 ],
 };
