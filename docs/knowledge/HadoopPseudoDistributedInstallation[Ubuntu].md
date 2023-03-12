@@ -52,7 +52,7 @@ vim /etc/hosts
 
 ### 3.2 添加ip地址和主机名
 
-```Plain Text
+```vim
 10.211.55.60 localhost
 ```
 
@@ -110,7 +110,7 @@ mv /usr/local/src/jdk1.8.0_212 /usr/local/src/java
 vim /etc/profile
 ```
 
-```Plain Text
+```vim
 # JAVA_HOME
 export JAVA_HOME=/usr/local/src/java
 export PATH=$PATH:$JAVA_HOME/bin
@@ -150,7 +150,7 @@ mv /usr/local/src/hadoop-3.1.3 /usr/local/src/hadoop
 vim /etc/profile
 ```
 
-```Plain Text
+```vim
 # HADOOP_HOME
 export HADOOP_HOME=/usr/local/src/hadoop/
 export PATH=$PATH:$HADOOP_HOME/bin
@@ -296,7 +296,7 @@ vim /usr/local/src/hadoop/etc/hadoop/mapred-site.xml
 vim /usr/local/src/hadoop/etc/hadoop/workers
 ```
 
-```Plain Text
+```vim
 localhost
 ```
 
