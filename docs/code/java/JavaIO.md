@@ -5,7 +5,7 @@
 文件是`保存数据的地方`
 文件流：文件在程序中是以流的形式来操作的
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220721144643452.png" alt="image-20220721144643452" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-io-1.png" alt="java-io-1" style="zoom:50%;" />
 
 流：数据在数据源(文件)和程序(内存)之间的路径
 输入流：数据从数据源(文件)到程序(内存)之间的路径
@@ -15,7 +15,7 @@
 
 #### 创建文件对象相关构造器和方法
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220721151357405.png" alt="image-20220721151357405" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-io-2.png" alt="java-io-2" style="zoom:50%;" />
 
 1. `new File(String pathname)`根据路径构建一个`File`对象
 2. `new File(File parent, String child)`根据父目录文件 + 子路径构建

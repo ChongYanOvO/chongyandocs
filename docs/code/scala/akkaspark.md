@@ -23,4 +23,5 @@
 
 - 启动多个`Worker`,查看是否能注册成功,并停止某个`Worker`查看是否能正常移除
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220724061659506.png" alt="image-20220724061659506" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/akka-spark.png" alt="akka-spark" style="zoom:50%;" />
+
