@@ -6,35 +6,36 @@
 
 ## 二、查看集群所有进程脚本
 
-[查看集群所有进程脚本](%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B8%B8%E7%94%A8%E9%9B%86%E7%BE%A4%E8%84%9A%E6%9C%AC%5BLinux%5D+fc4214a9-a6d2-4dce-98e9-d560a7bd5e23/%E6%9F%A5%E7%9C%8B%E9%9B%86%E7%BE%A4%E6%89%80%E6%9C%89%E8%BF%9B%E7%A8%8B%E8%84%9A%E6%9C%AC%2028f352e4-9676-4994-934c-9a0e39b0a217.md)
+[查看集群所有进程脚本](https://example.com/被引用的文档)
 
 ---
 
 ## 三、Hadoop集群管理脚本
 
-[Hadoop集群管理脚本](%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B8%B8%E7%94%A8%E9%9B%86%E7%BE%A4%E8%84%9A%E6%9C%AC%5BLinux%5D+fc4214a9-a6d2-4dce-98e9-d560a7bd5e23/Hadoop%E9%9B%86%E7%BE%A4%E7%AE%A1%E7%90%86%E8%84%9A%E6%9C%AC%2030ac44bf-e651-4ec4-9565-37c9ad9302ff.md)
+[Hadoop集群管理脚本](https://example.com/被引用的文档)
+
+---
 
 ## 四、ZooKeeper集群管理脚本
 
-[ZooKeeper集群管理脚本](%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B8%B8%E7%94%A8%E9%9B%86%E7%BE%A4%E8%84%9A%E6%9C%AC%5BLinux%5D+fc4214a9-a6d2-4dce-98e9-d560a7bd5e23/ZooKeeper%E9%9B%86%E7%BE%A4%E7%AE%A1%E7%90%86%E8%84%9A%E6%9C%AC%20572d4b4d-69f5-4a12-a61d-9c296fdf3911.md)
+[ZooKeeper集群管理脚本](https://example.com/被引用的文档)
 
 ---
 
 ## 五、Kafka集群管理脚本
 
-[Kafka 集群管理脚本](%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B8%B8%E7%94%A8%E9%9B%86%E7%BE%A4%E8%84%9A%E6%9C%AC%5BLinux%5D+fc4214a9-a6d2-4dce-98e9-d560a7bd5e23/Kafka+%E9%9B%86%E7%BE%A4%E7%AE%A1%E7%90%86%E8%84%9A%E6%9C%AC%201ee8ad9e-e969-4228-a852-3b7cd86d31ce.md)
+[Kafka 集群管理脚本](https://example.com/被引用的文档)
 
 ---
 
 ## 六、Hive集群管理脚本
 
-[Hive集群管理脚本](%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B8%B8%E7%94%A8%E9%9B%86%E7%BE%A4%E8%84%9A%E6%9C%AC%5BLinux%5D+fc4214a9-a6d2-4dce-98e9-d560a7bd5e23/Hive%E9%9B%86%E7%BE%A4%E7%AE%A1%E7%90%86%E8%84%9A%E6%9C%AC%2082b6a453-6ac1-41f2-8657-1edcd4122838.md)
+[Hive集群管理脚本](https://example.com/被引用的文档)
 
 ---
 
 ## 七、HBase集群管理脚本
 
-[HBase集群管理脚本](%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B8%B8%E7%94%A8%E9%9B%86%E7%BE%A4%E8%84%9A%E6%9C%AC%5BLinux%5D+fc4214a9-a6d2-4dce-98e9-d560a7bd5e23/HBase%E9%9B%86%E7%BE%A4%E7%AE%A1%E7%90%86%E8%84%9A%E6%9C%AC%202c88a3b4-f18c-4503-97ff-36d9157383b5.md)
-
+[HBase集群管理脚本](https://example.com/被引用的文档)
 ---
 
