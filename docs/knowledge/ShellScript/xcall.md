@@ -11,8 +11,8 @@ cd /bin && vim xcallshell
  
 for i in master slave1 slave2
 do
-    echo --------- $i ----------
-    ssh $i "source /etc/profile; $*"
+    echo --------- $i ----------
+    ssh $i "source /etc/profile; $*"
 done
 ```
 
