@@ -2,7 +2,7 @@
 
 ### docker-compose-single-kafka.yml
 
-```yml
+```yaml
 version: '2'
 services:
   zookeeper:

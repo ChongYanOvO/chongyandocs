@@ -8,6 +8,8 @@ import aboutConfig from "./indexConfig/aboutConfig";
 import rootConfig from "./indexConfig/rootConfig";
 import scalaConfig from "./indexConfig/scalaConfig";
 import shellScriptConfig from "./indexConfig/shellScriptConfig";
+import javaConfig from "./indexConfig/javaConfig";
+import dockerConfig from "./indexConfig/dockerConfig";
 
 
 export default {
@@ -26,7 +28,9 @@ export default {
     ],
     '/code/': [
         codeConfig,
-        scalaConfig
+        scalaConfig,
+        javaConfig,
+        dockerConfig,
     ],
     '/web/': [
         webConfig,

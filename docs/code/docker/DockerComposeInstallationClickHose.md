@@ -2,7 +2,7 @@
 
 ### docker-compose-single-clickhouse.yml
 
-```yml
+```yaml
 version: '3'
 
 services:

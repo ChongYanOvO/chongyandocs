@@ -14,7 +14,7 @@ cd ~/data/docker_data/umami
 vim docker-compose.yml
 ```
 
-```yml
+```yaml
 ---
 version: '3'
 services:
