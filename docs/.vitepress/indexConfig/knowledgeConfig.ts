@@ -4,7 +4,7 @@ export default {
     collapsed: false,
     items: [
         {text: "简介", link: "/knowledge/"},
-        {text: "Hadoop伪分布式安装[Ubuntu]", link: "/knowledge/HadoopPseudoDistributedInstallation[Ubuntu]/"},
-        {text: "MySQL安装[Ubuntu]", link: "/knowledge/MySQLInstallation[Ubuntu]/"},
+        {text: "Hadoop伪分布式安装[Ubuntu]", link: "/knowledge/HadoopPseudoDistributedInstallation/"},
+        {text: "MySQL安装[Ubuntu]", link: "/knowledge/MySQLInstallation/"},
     ],
 };

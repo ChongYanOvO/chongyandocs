@@ -3,7 +3,6 @@ export default {
     collapsible: true,
     collapsed: false,
     items: [
-        {text: "导读", link: "/code/scala/"},
         {text: "Scala 泛型", link: "/code/scala/generic"},
         {text: "Scala Actor 并发编程模型及框架", link: "/code/scala/concurrencymodel"},
         {text: "Scala 高阶函数及函数柯里化", link: "/code/scala/highfunction"},
