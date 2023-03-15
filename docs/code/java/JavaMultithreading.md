@@ -7,7 +7,7 @@
 1. 进程指定的运行中的程序，操作系统会为进程分配内存空间
 2. 进程是程序的一次执行过程，或者说是一个正在运行的程序。这个进程有它自己的生命周期，产生、存在、销毁的过程
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720011821457-20220720011907183.png" alt="image-20220720011821457" style="zoom:30%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-1.png" alt="java-thread-1" style="zoom:30%;" />
 
 在这里`IDEA`程序就是一个进程
 
@@ -16,7 +16,7 @@
 1. 线程是由进程创建的，是进程的一个实体
 2. 一个进程可以拥有多个线程
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720012046523.png" alt="image-20220720012046523" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-2.png" alt="java-thread-2" style="zoom:50%;" />
 
 我们可以看到在`IDEA`整个进程中有 142 个线程
 
@@ -43,7 +43,7 @@ public class CpuNum {
 
 Thread类图
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720013305546.png" alt="image-20220720013305546" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-3.png" alt="java-thread-3" style="zoom:50%;" />
 
 创建线程的两种方式
 
