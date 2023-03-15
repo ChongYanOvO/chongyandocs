@@ -7,9 +7,9 @@ import dailyConfig from "./indexConfig/dailyConfig";
 import aboutConfig from "./indexConfig/aboutConfig";
 import rootConfig from "./indexConfig/rootConfig";
 import scalaConfig from "./indexConfig/scalaConfig";
-import shellScriptConfig from "./indexConfig/shellScriptConfig";
 import javaConfig from "./indexConfig/javaConfig";
 import dockerConfig from "./indexConfig/dockerConfig";
+import scriptConfig from "./indexConfig/scriptConfig";
 
 
 export default {
@@ -36,7 +36,7 @@ export default {
         webConfig,
     ],
     '/knowledge/': [
-        shellScriptConfig,
+        scriptConfig,
         knowledgeConfig,
     ],
     '/research/': [
