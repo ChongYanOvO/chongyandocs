@@ -128,7 +128,7 @@ source /etc/profile
 java -version
 ```
 
-![image.png](https://flowus.cn/preview/7f244063-a740-4384-a693-6690321d096e)
+![image.png](https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-success.png)
 
 ## 六、安装Hadoop
 
@@ -197,7 +197,7 @@ export HADOOP_SHELL_EXECNAME=root
 hadoop version
 ```
 
-![image.png](https://flowus.cn/preview/a1454f3c-64b2-497d-954d-771129fd67fc)
+![image.png](https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/hadoop-success.png)
 
 ## 七、配置Hadoop
 
