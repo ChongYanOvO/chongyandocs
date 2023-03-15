@@ -91,7 +91,7 @@ Thread类图
 
 这里 `main 线程`和`Thread-0 线程`交替执行
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720014901061.png" alt="image-20220720014901061" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-4.png" alt="java-thread-4" style="zoom:50%;" />
 
 这里注意一点：在`继承 Thread 类`执行创建线程的代码中，调用的是`start()`方法，而在不是`run()`方法，那为什么调用`run()`方法呢?
 因为`继承 Thread 类`之后执行的`run()`方法，实际上`run()`方法只是一个普通的方法，并没有真正的启动线程，相当于串行化的执行，会导致 main 线程阻塞，意思就是说当 main 线程执行到`run()`方法时，必须要等到`run()`方法执行结束后才能继续执行
@@ -156,14 +156,14 @@ class ProxyThread implements Runnable {
 
 将一个实现了`Runnable接口`的类作为参数传入，然后调用其`run()`方法，在通过`start()`方法创建线程时，还是会调用`start0()`方法，由此可以看出，在 Java 中真正实现多线程的其实就是`start0()`方法
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720022827461.png" alt="image-20220720022827461" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-5.png" alt="java-thread-5" style="zoom:50%;" />
 
 Java 的`Thread`类中也确实是这样使用的
 `target.run()`是动态绑定传进来的`myThread`类中的`run()`方法
 
 #### 多个线程执行示意图
 
-![image-20220720023708146](http://chongyan-blog.test.upcdn.net/md-images/image-20220720023708146.png)
+![java-thread-6](https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-6.png)
 
 #### 练习：使用多线程模拟三个窗口同时售票 100 张
 
@@ -204,7 +204,7 @@ class mySellTicket implements Runnable {
 
 **出现问题了，这里车票超售了**
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720140843896.png" alt="image-20220720140843896" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-7.png" alt="java-thread-7" style="zoom:50%;" />
 
 在同一时刻，三个线程都执行了售票操作，`ticketNum`被三个线程同时修改后，还没有进入到下一次判断，那么票数就会变成 0 和 -1
 
@@ -310,12 +310,12 @@ class myThread implements Runnable {
 `yied`执行示意图
 `yied`在执行后线程会进入就绪状态，只是将资源优先给` Thread-2 `去使用，如果 CPU 资源充足时，` Thread-1 `也会继续执行
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720170437234.png" alt="image-20220720170437234" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-8.png" alt="java-thread-8" style="zoom:50%;" />
 
 `join`执行示意图
 `join`在执行后线程会进入阻塞状态，只有将` Thread-2 `线程完全执行结束后，才会执行` Thread-1 `线程，这是不管 CPU 资源是否还有空余，都需要等待` Thread-2 `线程执行结束
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720170411949.png" alt="image-20220720170411949" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-9.png" alt="java-thread-9" style="zoom:50%;" />
 
 这里说一点：`sleep`在执行后线程会进入阻塞状态
 
@@ -391,11 +391,11 @@ class myThread implements Runnable {
 
 没将`thread线程`设为`守护线程`前，当 `Main 线程`结束后，`thread线程`依然还在工作
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720174123143.png" alt="image-20220720174123143" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-10.png" alt="java-thread-10" style="zoom:50%;" />
 
 当将`thread线程`设为`守护线程`后，`Main 进程`接收后，作为`守护线程`的`thread线程`也会被关闭
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720174156103.png" alt="image-20220720174156103" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-11.png" alt="java-thread-11" style="zoom:50%;" />
 
 #### 线程的生命周期
 
@@ -415,7 +415,7 @@ class myThread implements Runnable {
 
 6. `Terminated`：已退出的线程处于此状态。
 
-<img src="http://chongyan-blog.test.upcdn.net/md-images/image-20220720182815696.png" alt="image-20220720182815696" style="zoom:50%;" />
+<img src="https://chongyandocs-1304373775.cos.ap-nanjing.myqcloud.com/chongyandocs/java-thread-12.png" alt="java-thread-12" style="zoom:50%;" />
 
 ```java
 public class ThreadState_ {
